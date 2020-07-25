@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+           padding: 0px;
+           margin: 0px;
+     }
+        .Inicio{
+            background-color: #000;
+            padding: 0%;
+            margin: 0%;
+     }
+        .Iconos-redes-sociales{
+            color:white;
+            background-color: #000000;
+            font-family: 'Rokkitt',serif
+     }
+        .Iconos-redes-sociales > li{
+            display: inline-block;
+            background-color: #000000;
+            padding: 10px;
+     }   
+        .Logo1{ 
+            text-align: center;
+     }
+        .migas-de-pan ol li > p{
+            padding: 10px;
+            display: inline-block;
+     }
+        .migas-de-pan ol li a{
+            display: inline-block;
+            padding: 10px;
+     }
+        .menu-navegacion{
+            text-align: center;
+            cursor: pointer;
+     }
+       .menu-navegacion ol li:hover{
+          background-color: #b6b2b2;
+     }
+        .input{
+            transform: translateX(800px);
+            border-radius: 20px;
+            width: 130%;
+            font-size: 12px;
+            padding: 10px;
+     }
+        .noticias li ul {
+            display: none;
+            position: absolute;
+            list-style: none;
+     }
+        .noticias :hover > ul {
+            display: block;
+            text-align: left;
+            padding-top: 9px;
+     }    
+        .noticias > li{
+            display: inline-block;
+            color: black;
+            font-family: 'Rokkitt',serif; 
+            font-size:20px;
+            padding: 10px;
+            margin-bottom: 10px;
+     }
+        .noticias li > a{
+          text-decoration: none;
+          color: #000000;
+     }
+        .titulo{
+            text-align: center;
+            font-size: 22px;
+            padding-top: 25px;
+            padding-bottom: 5px;
+            font-family: 'Rokkitt',serif; 
+     }
+        .tex-img {
+            padding: 30px
+     }
+        .imagen-noticia{
+            text-align: right;
+        }
+        .tex2-img {
+            padding: 30px
+     }
+        .tex-img tr td > h2{
+            text-align: center;
+            transform: translateY(-2px);
+            color: blue;
+            text-decoration: underline;
+     }
+        .tex-img tr td p{
+            font-size: 18px;
+            padding: 10px;
+     }   
+        .tex2-img tr td p{
+            font-size: 18px;
+            padding: 10px;
+     }
+        .noticia-footer{
+            text-align: center;
+            border-style: solid;
+            border-color: #3398F4;
+            padding: 5px;
+            transform: translateX(120px);
+     }  
+        .noticia-footer p {
+            color: blue;
+            text-align: left;
+            font-size: 20px;
+     }    
+        .noticia-footer > p1{
+            font-size: 20px;
+            color: #a3a3a3;
+     }
+        .menu-footer{
+            text-align: center;
+            padding: 20px;
+     }
+        .menu-footer > li{
+           display: inline-block;
+           padding: 10px;
+           cursor: pointer;
+     }
+        .menu-footer li >img{
+          border-radius: 25%;
+        }
+        #logo-final{
+           padding-left: 80px;
+     }
+        .menu-footer > h3{
+          padding: 15px;
+          text-align: left;
+          cursor: pointer;
+     }
+
+    </style>
+</head>
+<body>
+    <div class="Inicio" width="100%">
+    <ol class="Iconos-redes-sociales">
+        <li><h3>Redes Sociales</h3></li>
+        <li><a target="blanc" href="https://www.facebook.com/"><img src="img/logos/Facebook.png" width="27px"></a></li>
+        <li><a target="blanc" href="https://www.instagram.com/"><img src="img/logos/Instagram.png" width="25px"></a></li>
+        <li><a target="blanc" href="https://www.youtube.com/"><img src="img/logos/Youtube.png" width="35px"></a></li>
+        <li><input class="input" type="text" placeholder="Buscar"></li>
+    </ol>
+  </div>
+
+  <div class="Logo1">
+    <a href="index.html"><img src="img/logos/logo.png" width="300px"></a>
+  </div>
+  <hr>
+
+  <div class="migas-de-pan">
+    <ol>
+        <li>
+            <a href="index.html"><p>Inicio</p></a>
+            <p>Educacion</p>
+        </li>
+    </ol>
+  </div>
+  
+  <div class="menu-navegacion">
+    <ol class="noticias">
+        <li>Educacion</li>
+        <li><a href="Salud.html">Salud</li></a>
+        <li><a href="Movilidad.html"><li>Movilidad</li></a>
+        <li><a href="Polemica.html"><li>Polemica</li></a>
+        <a href="Covid-19.html"><li>Covid-19</a>
+            <ul>
+                <li><a href="Coronavirus.html">Coronavirus</li></a>
+                <li><a href="Coronavirus-vaupes.html">Coronavirus-Vaupes</li></a>
+            </ul>
+        </li>
+    </ul>
+</div> <br><br> 
+  <hr>
+
+  <div class="titulo">
+      <h1>Universidad colombiana, de las mejores escuelas de negocios del mundo.</h1>
+  </div><br>
+
+  <table width="100%"  class="tex-img">
+    <tr width="100%">
+         <td width="50%"> 
+             <h2>Educacion</h2><br><br><br>
+             <p>El reconocido medio británico Financial Times publicó recientemente su ránquin 
+                de las mejores universidades del mundo en Educación Ejecutiva, en el que figura una institución colombiana.</p><br>
+             <p>Este listado es considerado como el indicador más relevante para las Escuelas de administración 
+                y de negocios en el mundo, respecto a sus programas de Educación Ejecutiva.</p>
+         </td>
+         <td class="imagen-noticia">
+             <img src="img/1.jpeg" width="100%">     
+         </td>
+    </tr>     
+   </table>
+
+   <table width="90%" class="tex2-img">
+    <tr width="100%">
+         <td width="60%"> 
+             <p>La universidad nacional que aparece en el listado es Los Andes, que se posicionó en el puesto 39, convirtiéndose también 
+                con esto en la quinta mejor de Latinoamérica. Además, también resulta ser una mejoría de cinco puestos con respecto al año 2018.</p><br>
+             <p>En cuanto a las mejores instituciones de la región, los primeros puestos son ocupados en este orden por la Fundação Dom Cabral
+                de Brasil, el Instituto Panamericano de Alta Dirección de Empresas de la Universidad Panamericana de México (IPADE), 
+                el INCAE Business School de Costa Rica, la Facultad de Administración de la Universidad de los Andes y la Universidad 
+                Austral IAE de Argentina.</p><br>
+             <p>Ante este reconocimiento, Veneta Andonova, decana de la Facultad de Administración de la Universidad de los Andes, señaló que
+                este “es uno de los ejes de nuestra estrategia para crear impacto en las organizaciones y en el país. Nuestra oferta se adapta a 
+                los problemas reales y a las necesidades de las organizaciones con temas de pertinencia, a través de metodologías
+                innovadoras que permiten que los directivos, ejecutivos y profesionales transformen las organizaciones donde se desenvuelven”.</p><br>
+             <p>Por su parte, en los primeros lugares a nivel mundial se encuentran Iese Business School, de España; la HEC, de París, el IMD 
+                Business School, de Suiza; Duke Corporate Education, de Estados Unidos y el SDA Bocconi School of Management, de Italia.</p><br>
+             <p>El ranquin fue elaborado a partir de las calificaciones de cada uno de los estudiantes de estas escuelas de negocios. 
+                 También se analizaron factores como la metodología de los cursos impartidos, así como el seguimiento de ellos en sus 
+                 entornos laborales aplicando los conocimientos adquiridos.</p><br>
+        </td>
+        <td width="13%" class="noticia-footer">
+            <p>De tu interes</p>
+            <a href="Salud.html"><img src="img/3.jpeg" width="100%"></a>
+            <p1>Conozca dónde y cómo puede 
+               hacerse la prueba del covid-19 
+               en su ciudad</p1> <br><br>
+               <a href="Coronavirus-vaupes.html"><img src="img/5.jpeg" width="100%"></a> 
+            <p1>A Vaupés el virus llegó 
+                desde Brasil; hay 11 contagios y solo una UCI.</p1>    
+         </td>
+    </tr>     
+   </table> 
+   <hr>
+
+   <table width="100%" id="logo-final">
+    <tr width="100%">
+         <td width="33%"> 
+            <a href="index.html"><img src="img/logos/logo.png" width="70%"></a>
+         </td>
+         <td>
+             <ol class="menu-footer">
+                  <h2>Siguenos en:</h2>
+                  <li><a target="blanc" href="https://www.facebook.com/"><img src="img/logos/Facebook.png" width="47px"></a></li>
+                  <li><a target="blanc" href="https://www.instagram.com/"><img src="img/logos/Instagram.png" width="45px"></a></li>
+                  <li><a target="blanc" href="https://www.youtube.com/"><img src="img/logos/Youtube.png" width="55px"></a></li>
+             </ol>
+         </td>
+         <td>
+             <ol class="menu-footer">
+                 <h3>Ayuda</h3>
+                 <h3>Terminos y condiciones</h3>
+                 <h3>Servicio al cliente</h3>
+             </ol>
+         </td>
+    </tr>
+  </table>
+  <br><br>
+</body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+           padding: 0px;
+           margin: 0px;
+     }
+        .Inicio{
+            background-color: #000;
+            padding: 0%;
+            margin: 0%;
+     }
+        .Iconos-redes-sociales{
+            color:white;
+            background-color: #000000;
+            font-family: 'Rokkitt',serif
+     }
+        .Iconos-redes-sociales > li{
+            display: inline-block;
+            background-color: #000000;
+            padding: 10px;
+     }   
+        .Logo1{ 
+            text-align: center;
+     }
+        .migas-de-pan ol li > p{
+            padding: 10px;
+            display: inline-block;
+     }
+        .migas-de-pan ol li a{
+            display: inline-block;
+            padding: 10px;
+     }
+        .menu-navegacion{
+            text-align: center;
+            cursor: pointer;
+     }
+       .input{
+            transform: translateX(800px);
+            border-radius: 20px;
+            width: 130%;
+            font-size: 12px;
+            padding: 10px;
+     }
+        .noticias > li{
+            display: inline-block;
+            color: black;
+            font-family: 'Rokkitt',serif; 
+            font-size:20px;
+            padding: 10px;
+            margin-bottom: 10px;
+     }
+        .noticias li > a{
+          text-decoration: none;
+          color: #000000;
+     }
+        .noticias li ul {
+            display: none;
+            position: absolute;
+            list-style: none;
+     }
+        .noticias :hover > ul {
+            display: block;
+            text-align: left;
+            padding-top: 9px;
+     }
+        .menu-navegacion ul li:hover{
+          background-color: #b6b2b2;
+     }
+        .titulo{
+            text-align: center;
+            font-size: 22px;
+            padding-top: 25px;
+            padding-bottom: 5px;
+            font-family: 'Rokkitt',serif; 
+     }
+        .imagen {
+            padding: 30px;
+            text-align: center;       
+     }
+        .tex2-img {
+            padding: 30px
+     }
+        .tex-img tr td > h2{
+            text-align: center;
+            transform: translateY(-10px);
+            color: blue;
+            text-decoration: underline;
+     }
+        .tex-img tr td p{
+            font-size: 18px;
+            padding: 10px;
+     }   
+        .tex2-img tr td p{
+            font-size: 18px;
+            padding: 10px;
+     }
+        .noticia-footer{
+            text-align: center;
+            border-style: solid;
+            border-color: #3398F4;
+            padding: 5px;
+            transform: translateX(120px);
+     }  
+        .noticia-footer p {
+            color: blue;
+            text-align: left;
+            font-size: 20px;
+     }    
+        .noticia-footer > p1{
+            font-size: 20px;
+            color: #a3a3a3;
+     }
+        .menu-footer{
+            text-align: center;
+            padding: 20px;
+     }
+        .menu-footer > li{
+           display: inline-block;
+           padding: 10px;
+           cursor: pointer;
+     }
+        .menu-footer li >img{
+          border-radius: 25%;
+        }
+        #logo-final{
+           padding-left: 80px;
+     }
+        .menu-footer > h3{
+          padding: 15px;
+          text-align: left;
+          cursor: pointer;
+     }
+
+    </style>
+</head>
+<body>
+
+  <div class="Inicio" width="100%">
+    <ol class="Iconos-redes-sociales">
+        <li><h3>Redes Sociales</h3></li>
+        <li><a target="blanc" href="https://www.facebook.com/"><img src="img/logos/Facebook.png" width="27px"></a></li>
+        <li><a target="blanc" href="https://www.instagram.com/"><img src="img/logos/Instagram.png" width="25px"></a></li>
+        <li><a target="blanc" href="https://www.youtube.com/"><img src="img/logos/Youtube.png" width="35px"></a></li>
+        <li><input class="input" type="text" placeholder="Buscar"></li>
+    </ol>
+  </div>
+
+  <div class="Logo1">
+    <a href="index.html"><img src="img/logos/logo.png" width="300px"></a>
+  </div>
+  <hr>
+
+  <div class="migas-de-pan">
+    <ol>
+        <li>
+            <a href="index.html"><p>Inicio</p></a>
+            <a href="Covid-19.html"><p>Covid-19</p></a>
+            <p>Coronavirus</p>
+        </li>
+    </ol>
+  </div>
+  
+  <div class="menu-navegacion">
+    <ul class="noticias">
+      <li><a href="Educacion.html">Educacion</li></a>
+      <li><a href="Salud.html">Salud</li></a>
+      <li><a href="Movilidad.html">Movilidad</li></a>
+      <li><a href="Polemica.html">Polemica</li></a>
+      <a href="Covid-19.html"><li>Covid-19</a>
+          <ul>
+              <li>Coronavirus</li>
+              <li><a href="Coronavirus-vaupes.html">Coronavirus Vaupes</li></a>
+          </ul>
+      </li>
+  </ul>
+</div> <br><br>    
+  <hr>
+
+  <div class="imagen">
+      <img src="img/6.jpeg" width="70%">
+  </div>
+
+  <div class="titulo">
+      <h1>Coronavirus: 21 muertes más en Colombia; contagios superan los 14 mil</h1>
+  </div><br>
+
+   <table width="90%" class="tex2-img">
+    <tr width="100%">
+         <td width="60%"> 
+             <p>El Ministerio de Salud confirmó este viernes 21 muertes más en Colombia por covid-19. 
+                 Con esta actualización, la cifra de fallecimientos en el país asciende a 546.
+                La autoridad sanitaria reportó, además, que en las últimas 24 horas se procesaron 6.082 pruebas,
+                 las cuales arrojaron 606 contagios nuevos confirmados en Bogotá (115), Cartagena (85), Amazonas 
+                 (79), Atlántico (74), Nariño (48), Valle (41), Barranquilla (36), Magdalena (24), Tolima (20), 
+                 Huila (20), Cundinamarca (16), Córdoba (11), Bolívar (10), Antioquia (8), Cauca (7), La Guajira (3), 
+                 Chocó (2), Norte de Santander (2), Caldas (1), Quindío (1), Putumayo (1), Santa Marta (1) y Santander (1).</p><br>
+             <p>Con esta actualización, el país llega a 14.216 contagios confirmados, distribuidos en 34 departamentos y distritos del país.
+                Bogotá es la ciudad en la que se registran más casos. Así, la capital llega a 5.008 contagios.</p><br>
+             <p>Otro dato relevante de este informe es que los contagios confirmados en el departamento del Amazona 
+                 llegan a 1.003. Esta cifra se conoce luego de que el Gobierno Nacional decretara el cierre total del 
+                 departamento a partir del 15 de mayo hasta el 30 de mayo como medida preventiva para mitigar la propagación del virus en esa región.
+                Este reporte del Ministerio de Salud señala, por otro lado, que a la fecha son 3.460 los pacientes que se han recuperado en todo el país.</p><br>
+             <p>Sobre los 21 nuevos fallecimientos confirmados este viernes, las autoridades señalaron que corresponden a:</p><br>
+        </td>
+        <td width="13%" class="noticia-footer">
+            <p>De tu interes</p>
+            <a href="Polemica.html"><img src="img/4.jpeg" width="100%"></a>  
+            <p1>Polémico trino de Petro sobre la llegada y expansión del coronavirus.</p1> <br><br>
+            <a href="Movilidad.html"><img src="img/2.jpeg" width="100%"></a> 
+            <p1>El 25 de mayo inicia cobro de multas vía cámaras salvavidas en Bogotá.</p1>    
+         </td>
+    </tr>     
+   </table> 
+
+   <table width="100%" class="tex2-img">
+    <tr width="100%">
+         <td width="40%"> 
+             <p>- Un hombre de 84 años en Cartagena, con HTA, diabetes, secuelas de ACV isquémico.</p>
+             <p>- Un hombre de 48 años en Mosquera, Nariño, con bronquitis.</p>
+             <p>- Un hombre de 49 años en Tumaco, sin comorbilidades.</p>
+             <p>- Una mujer de 61 años en Bogotá, con HTA, cardiopatía, diabetes, Epoc, enfermedad renal crónica e hipotiroidismo.</p>
+             <p>- Una mujer de 61 años en Bogotá, con HTA.</p>
+             <p>- Un hombre de 75 años en Cali, con HTA.</p>
+             <p>- Un hombre de 84 años en Tumaco, con HTA y ECV.</p>
+             <p>- Un hombre de 69 años en Cali, con Epoc.</p>
+             <p>- Un hombre de 78 años en Cartagena, con HTA e hipotiroidismo.</p>
+             <p>- Un hombre de 64 años en Cartagena, con cáncer y cardiopatía isquémica.</p><br> 
+        </td>
+    <td width="40%">
+             <p>- Una mujer de 65 años en Leticia, con comorbilidades en estudio.</p>
+             <p> - Un hombre de 91 años en Leticia, con HTA.</p>
+             <p>- Un hombre de 73 años en Leticia, con comorbilidades en estudio.</p>
+             <p>- Una mujer de 58 años en Cartagena, con HTA, cáncer de páncreas con metástasis hepática.</p>
+             <p>- Un hombre de 77 años en Leticia, con comorbilidades en estudio.</p>
+             <p>- Una mujer de 84 años en Leticia, con comorbilidades en estudio.</p>
+             <p> - Un hombre de 67 años en Cartagena, con HTA.</p>
+             <p>- Una mujer de 73 años en Cartagena, con comorbilidades en estudio.</p>
+             <p> - Una mujer de 79 años en Barranquilla, con HTA, cáncer de páncreas con metástasis hepática.</p>
+             <p>- Una mujer de 98 años en Barranquilla, con HTA, Epoc, enfermedad renal crónica.</p>
+             <p>- Un hombre de 85 años en Cali, con HTA.</p><br>
+      </td>
+    </tr>     
+   </table> 
+   <hr>
+   
+   <table width="100%" id="logo-final">
+    <tr width="100%">
+         <td width="33%"> 
+            <a href="index.html"><img src="img/logos/logo.png" width="70%"></a>
+         </td>
+         <td>
+             <ol class="menu-footer">
+                  <h2>Siguenos en:</h2>
+                  <li><a target="blanc" href="https://www.facebook.com/"><img src="img/logos/Facebook.png" width="47px"></a></li>
+                  <li><a target="blanc" href="https://www.instagram.com/"><img src="img/logos/Instagram.png" width="45px"></a></li>
+                  <li><a target="blanc" href="https://www.youtube.com/"><img src="img/logos/Youtube.png" width="55px"></a></li>
+             </ol>
+         </td>
+         <td>
+             <ol class="menu-footer">
+                 <h3>Ayuda</h3>
+                 <h3>Terminos y condiciones</h3>
+                 <h3>Servicio al cliente</h3>
+             </ol>
+         </td>
+    </tr>
+  </table>
+  <br><br>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+           padding: 0px;
+           margin: 0px;
+     }
+        .Inicio{
+            background-color: #000;
+            padding: 0%;
+            margin: 0%;
+     }
+        .Iconos-redes-sociales{
+            color:white;
+            background-color: #000000;
+            font-family: 'Rokkitt',serif
+     }
+        .Iconos-redes-sociales > li{
+            display: inline-block;
+            background-color: #000000;
+            padding: 10px;
+     }   
+        .Logo1{ 
+            text-align: center;
+     }
+        .migas-de-pan ol li > p{
+            padding: 10px;
+            display: inline-block;
+     }
+        .migas-de-pan ol li a{
+            display: inline-block;
+            padding: 10px;
+     }
+        .menu-navegacion{
+            text-align: center;
+            cursor: pointer;
+     }
+        .input{
+            transform: translateX(800px);
+            border-radius: 20px;
+            width: 130%;
+            font-size: 12px;
+            padding: 10px;
+     }
+        .noticias > li{
+            display: inline-block;
+            color: black;
+            font-family: 'Rokkitt',serif; 
+            font-size:20px;
+            padding: 10px;
+            margin-bottom: 10px;
+     }
+        .noticias li > a{
+          text-decoration: none;
+          color: #000000;
+     }
+        .noticias li ul {
+            display: none;
+            position: absolute;
+            list-style: none;
+     }
+        .noticias :hover > ul {
+            display: block;
+            text-align: left;
+            padding-top: 9px;
+     }    
+        .menu-navegacion ol li:hover{
+          background-color: #b6b2b2;
+     }     
+        .titulo{
+            text-align: center;
+            font-size: 22px;
+            padding-top: 25px;
+            padding-bottom: 5px;
+            font-family: 'Rokkitt',serif; 
+     }
+        .imagen {
+            padding: 30px;
+            text-align: center;       
+     }
+        .tex2-img {
+            padding: 30px
+     }
+        .tex-img tr td > h2{
+            text-align: center;
+            transform: translateY(-10px);
+            color: blue;
+            text-decoration: underline;
+     }
+        .tex-img tr td p{
+            font-size: 18px;
+            padding: 10px;
+     }   
+        .tex2-img tr td p{
+            font-size: 18px;
+            padding: 10px;
+     }
+        .noticia-footer{
+            text-align: center;
+            border-style: solid;
+            border-color: #3398F4;
+            padding: 5px;
+            transform: translateX(120px);
+     }  
+        .noticia-footer p {
+            color: blue;
+            text-align: left;
+            font-size: 20px;
+     }    
+        .noticia-footer > p1{
+            font-size: 20px;
+            color: #a3a3a3;
+     }
+        .menu-footer{
+            text-align: center;
+            padding: 20px;
+     }
+        .menu-footer > li{
+           display: inline-block;
+           padding: 10px;
+           cursor: pointer;
+     }
+        .menu-footer li >img{
+          border-radius: 25%;
+        }
+        #logo-final{
+           padding-left: 80px;
+     }
+        .menu-footer > h3{
+          padding: 15px;
+          text-align: left;
+          cursor: pointer;
+     }
+
+    </style>
+</head>
+<body>
+
+  <div class="Inicio" width="100%">
+    <ol class="Iconos-redes-sociales">
+        <li><h3>Redes Sociales</h3></li>
+        <li><a target="blanc" href="https://www.facebook.com/"><img src="img/logos/Facebook.png" width="27px"></a></li>
+        <li><a target="blanc" href="https://www.instagram.com/"><img src="img/logos/Instagram.png" width="25px"></a></li>
+        <li><a target="blanc" href="https://www.youtube.com/"><img src="img/logos/Youtube.png" width="35px"></a></li>
+        <li><input class="input" type="text" placeholder="Buscar"></li>
+    </ol>
+  </div>
+
+  <div class="Logo1">
+    <a href="index.html"><img src="img/logos/logo.png" width="300px"></a>
+  </div>
+  <hr>
+
+  <div class="migas-de-pan">
+    <ol>
+        <li>
+            <a href="index.html"><p>Inicio</p></a>
+            <p>Salud</p>
+        </li>
+    </ol>
+  </div>
+  
+  <div class="menu-navegacion">
+    <ol class="noticias">
+        <li><a href="Educacion.html">Educacion</li></a>
+        <li>Salud</li>
+        <li><a href="Movilidad.html">Movilidad</li></a>
+        <li><a href="Polemica.html">Polemica</li></a>
+        <a href="Covid-19.html"><li>Covid-19</a>
+            <ul>
+                <li><a href="Coronavirus.html">Coronavirus</li></a>
+                <li><a href="Coronavirus-vaupes.html">Coronavirus-Vaupes</li></a>
+            </ul>
+        </li>
+    </ul>
+</div> <br><br>    
+  <hr>
+
+  <div class="imagen">
+      <img src="img/3.jpeg" width="70%">
+  </div>
+
+  <div class="titulo">
+      <h1>Conozca dónde y cómo puede hacerse la prueba del covid-19 en su ciudad</h1>
+  </div><br>
+
+   <table width="90%" class="tex2-img">
+    <tr width="100%">
+         <td width="60%"> 
+             <p>La capacidad de testeo del nuevo coronavirus se viene fortaleciendo en Colombia. En el país hay 53 laboratorios 
+                autorizados que acompañan al Instituto Nacional de Salud (INS) en la realización de estas pruebas, con el fin 
+                de detectar el mayor número de contagios posibles y aislar de manera oportuna a quienes padecen covid-19,
+                acatando así las recomendaciones de la Organización Mundial de la Salud (OMS).
+                En el país hay capacidad para 12.083 pruebas al día y laboratorios en 16 de los 32 departamentos, pero algunos
+                pacientes se quejan de supuestas demoras para ser testeados o conocer los resultados.</p><br>
+             <p>En la última semana, cada día se han realizado más de 4.000 pruebas para diagnosticar si se padece covid-19, 
+                lo que demuestra el aumento en la capacidad.</p><br>
+             <p>Respecto a la demora para conocer los resultados, Adriana Pacheco, directora del doctorado en Salud Pública de 
+                 la Universidad El Bosque, la atribuye a que en muchas regiones se depende de enviar las pruebas hasta Bogotá 
+                 al no tener la capacidad instalada, lo que genera congestión y retrasos en la entrega de los resultados, teniendo 
+                 en cuenta que se gasta tiempo en el transporte de las mismas y el retorno.</p><br>
+             <p>En otros casos, las demoras son debido a que no todos los bacteriólogos están entrenados para tomar las pruebas y si 
+                hay pocos, el trámite se demora todavía más, indicó la experta. 
+                A esto suma Miyerlandi Torres, secretaria de Salud de Cali, que los laboratorios tienen dificultadespara la adquisición de los reactivos, los cuales están escasos en el 
+                mercado, o en ocasiones las muestras se rechazan porque no cumplen con la calidad. De hecho, se han descartado 137.628.</p><br>
+        </td>
+        <td width="13%" class="noticia-footer">
+            <p>De tu interes</p>
+            <a href="Polemica.html"><img src="img/4.jpeg" width="100%"></a>
+            <p1>Polémico trino de Petro sobre la llegada y expansión del coronavirus.</p1> <br><br>
+            <a href="Coronavirus.html"><img src="img/6.jpeg" width="100%"></a> 
+            <p1>Coronavirus: 21 muertes más en Colombia; contagios superan los 14 mil</p1>    
+         </td>
+    </tr>     
+   </table> 
+
+   <table width="100%" class="tex2-img">
+    <tr width="100%">
+         <td width="40%"> 
+             <p>En todo caso, Martha Ospina, directora del INS, manifestó que tras la llegada de dos robots se acelerarán los
+                procesos para hacer 2.000 pruebas al día y se fijó como meta entre mayo y julio la realización de 1'200.000 
+                pruebas con la red conjunta. Este domingo iban 151.396 pruebas procesadas, lo cual es un aumento más que significativo.</p><br>
+             <p>En los principales departamentos del país, el promedio de entrega de los resultados es entre las 24 y 48 horas.
+                El método que más se está utilizando es la llamada prueba molecular o PCR, que es la recomendada para el seguimiento 
+                epidemiológico y es eficaz para detectar el covid-19.</p><br>
+             <p>En este caso, el bacteriólogo introduce un hisopo en la parte posterior de la nariz para recoger la muestra, y se 
+                analiza si esta tiene el material genético del virus.</p><br>
+             <p>Así se procesan las pruebas en las principales ciudades
+                En Antioquia, donde hay 12 laboratorios que procesan diariamente 900 pruebas, el tiempo estimado para conocer el 
+                resultado de una muestra depende de  si el paciente está dentro del Valle de Aburrá o en un municipio alejado.
+                Este condicionante generará un traslado a donde se analizará la prueba.</p><br>
+             <p>“Una vez que se tome la muestra, la transportan al laboratorio departamental o a los laboratorios que ya están 
+                habilitados. Podemos decir que las muestras en Antioquia no duran más de 48 horas. Estamos casi al día en el procesamiento
+                de muestras”, manifestó Lina Bustamante, secretaria de Salud de Antioquia.</p><br>
+             <p>Por su parte, la Secretaría de Salud del Valle indicó que está en capacidad de procesar 500 muestras diarias y 
+                la entrega de resultados cuenta con un lapso entre las 24 y 48 horas.</p><br>
+             <p>En Atlántico, los laboratorios locales autorizados se están tardando en promedio 48 horas para entregar resultados del covid-19, 
+                tiempo que se considera normal dentro de lo establecido por el sistema. En la ciudad se está en capacidad de analizar unas 400 muestras diarias.</p><br>
+             <p>De otro lado, en Santander el tiempo de espera para conocer un resultado de las pruebas que se hacen en los dos laboratorios autorizados es de 48 horas, 
+                según el secretario de Salud de Santander, Javier Villamizar.</p><br>  
+             <p>Para Pacheco, precisamente, estos departamentos y Bogotá son los que mejor capacidad e infraestructura para tomar muestras tienen.</p><br>
+             <p>¿Puedo hacerme una prueba en un laboratorio privado?
+                De acuerdo con el Ministerio de Salud, las Empresas Promotoras de Salud (EPS) y las Empresas Obligadas a Compensar (EOC) son las encargadas
+                de gestionar todo el proceso de toma, procesamiento y entrega de resultados de las pruebas que se hagan.</p><br>
+             <p>No obstante, por las demoras que en algunos casos han señalado varios ciudadanos, en las distintas capitales ya hay laboratorios privados, con aval del INS, que prestan el servicio para quienes así lo requieren.</p> 
+        </td>
+    <td width="40%">
+        <p>Luis Alexánder Moscoso, viceministro de Salud Pública y Prestación de Servicios, explicó que si una persona particular requiere hacerse una prueba de covid-19 por no tener afiliación a seguro o debido a que lo desea ante 
+           los síntomas, su proceso debe ser, en primera instancia, asegurarse.</p><br>
+        <p>“Se trata de un procedimiento sencillo con requisitos mínimos y le dará una mejor garantía. En caso de no estarlo podría acudir a un laboratorio privado o público de cualquier IPS y 
+           realizarse las pruebas y pagar por estas. Su resultado subirá a la plataforma del sistema colombiano.
+           Todo será bajo los lineamientos del Ministerio de Salud y Protección Social para la realización de pruebas”, señaló.</p><br>
+        <p>El funcionario agregó que los laboratorios habilitados pueden realizar las pruebas que cumplan con requisitos y medidas 
+            pertinentes, sean moleculares o serológicas, también llamadas rápidas, a quienes tengan orden médica para realizársela y con el historial clínico.</p><br>
+        <p>Sin embargo, en este momento —indicó— no hay regulación tarifaria; está a opciones de mercado porque son exámenes que entran recientemente y 
+            se deben establecer las escalas de precios.</p><br>
+        <p>En Bogotá, por ejemplo, Idime cobra por la muestra molecular a 250.000 pesos por la toma a domicilio. Además, dispuso de su sede en El Lago, el laboratorio para
+            realizarla por 220.000 pesos, con previa cita y guardando todos los protocolos de seguridad. El resultado se da en un lapso de 48 horas.
+            Entre tanto, el laboratorio Higuera Escalante de Bucaramanga también realiza tomas moleculares. Miriam Boo, de esta institución, manifestó que los resultados los pueden entregar de 5 a 48 horas y el valor es de 310.000 pesos.</p><br>
+        <p>Con relación al cobro de prueba diagnóstica por parte de los laboratorios privados en Antioquia, Luis Gonzalo Morales, gerente para la contingencia del coronavirus, explicó que estos pueden hacerlo y están cobrando entre 130.000 y 150.000 pesos por ella.</p><br>
+        <p>"Algunos de los laboratorios tienen contratos con las EPS. De hecho, todas las EPS tienen contrato con laboratorios diferentes al laboratorio departamental, y hay personas que de pronto, individualmente, están solicitando
+            la prueba, y eso es lo que se puede cobrar. Sí pueden cobrar y están cobrando esa cantidad”, acotó el funcionario.</p><br>
+        <p>El viceministro Moscoso manifestó que se está trabajando en la elaboración de un tema tarifario para el sistema, que las EPS cobren a través del sistema de techos, pero en estos momentos no hay regulación para el sector privado.</p><br>  
+        <p>De otro lado, el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (Invima), a través de una alerta sanitaria, advirtió sobre la publicidad con fines de comercialización en el país de pruebas rápidas fraudulentas. es decir, 
+            sin registro sanitario o sin visto bueno de importación, para la detección de covid-19, las cuales se están fomentando a través de medios virtuales por parte de personal no idóneo.</p><br>    
+      </td>
+    </tr>     
+   </table> 
+   <hr>
+   
+   <table width="100%" id="logo-final">
+    <tr width="100%">
+         <td width="33%"> 
+            <a href="index.html"><img src="img/logos/logo.png" width="70%"></a>
+         </td>
+         <td>
+             <ol class="menu-footer">
+                  <h2>Siguenos en:</h2>
+                  <li><a target="blanc" href="https://www.facebook.com/"><img src="img/logos/Facebook.png" width="47px"></a></li>
+                  <li><a target="blanc" href="https://www.instagram.com/"><img src="img/logos/Instagram.png" width="45px"></a></li>
+                  <li><a target="blanc" href="https://www.youtube.com/"><img src="img/logos/Youtube.png" width="55px"></a></li>
+             </ol>
+         </td>
+         <td>
+             <ol class="menu-footer">
+                 <h3>Ayuda</h3>
+                 <h3>Terminos y condiciones</h3>
+                 <h3>Servicio al cliente</h3>
+             </ol>
+         </td>
+    </tr>
+  </table>
+  <br><br>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+           padding: 0px;
+           margin: 0px;
+     }
+        .Inicio{
+            background-color: #000;
+            padding: 0%;
+            margin: 0%;
+     }
+        .Iconos-redes-sociales{
+            color:white;
+            background-color: #000000;
+            font-family: 'Rokkitt',serif
+     }
+        .Iconos-redes-sociales > li{
+            display: inline-block;
+            background-color: #000000;
+            padding: 10px;
+     }
+        .input{
+            transform: translateX(800px);
+            border-radius: 20px;
+            width: 130%;
+            font-size: 12px;
+            padding: 10px;
+     }
+        .Logo1{ 
+            text-align: center;
+     }
+        .migas-de-pan{
+            padding: 10px;
+     }
+        .menu-navegacion{
+            text-align: center;
+            cursor: pointer;
+     }
+        .menu-navegacion ol li:hover{
+          background-color: #b6b2b2;
+     }
+        .noticias > li{
+            display: inline-block;  
+            font-family: 'Rokkitt',serif; 
+            font-size:20px;
+            padding: 10px;
+            margin-bottom: 10px;
+     }
+        .noticias li > a{
+          text-decoration: none;
+          color: #000000;
+     }
+        .noticias li ul {
+            display: none;
+            position: absolute;
+            list-style: none;
+     }
+        .noticias :hover > ul {
+            display: block;
+            text-align: left;
+            padding-top: 9px;
+     }    
+        .texto {
+          display: inline-block;
+          text-align: center;
+          width: 97%;
+          padding: 20px; 
+     }
+        .texto > p {
+          display: inline-block;
+          border-style: solid;
+          padding: 5px;
+     }
+        .texto p > a{
+          text-decoration: none;
+          color: #000000;
+     }
+        .texto p a > .I2{
+          color: #ffffff;
+        }
+        .I2 {
+          background-color: red;
+          color: #ffffff;
+     }
+        .secciones > table{
+          transform: translateX(100px);
+          padding: 5px;
+     }  
+        .secciones  table tr td > p{
+          color: blue;
+     }
+        .secciones  table tr td > h3{
+          color: #5a5858;
+     }    
+        .secciones table tr > td{
+          padding: 40px;
+     }
+        .menu-footer{
+            text-align: center;
+            padding: 20px;
+     }
+        .menu-footer > li{
+           display: inline-block;
+           padding: 10px;
+           cursor: pointer;
+     }
+        .menu-footer li >img{
+          border-radius: 25%;
+        }
+        #logo-final{
+           padding-left: 80px;
+     }
+        .menu-footer > h3{
+          padding: 15px;
+          text-align: left;
+          cursor: pointer;
+     }
+             
+  </style>
+</head>
+<body>
+
+  <div class="Inicio" width="100%">
+    <ol class="Iconos-redes-sociales">
+        <li><h3>Redes Sociales</h3></li>
+        <li><a target="blanc" href="https://www.facebook.com/"><img src="img/logos/Facebook.png" width="27px"></a></li>
+        <li><a target="blanc" href="https://www.instagram.com/"><img src="img/logos/Instagram.png" width="25px"></a></li>
+        <li><a target="blanc" href="https://www.youtube.com/"><img src="img/logos/Youtube.png" width="35px"></a></li>
+        <li><input class="input" type="text" placeholder="Buscar"></li>
+    </ol>
+  </div>
+  <div class="Logo1">
+        <img src="img/logos/logo.png" width="300px">
+  </div>
+  <hr>
+
+  <p class="migas-de-pan">Inicio</p>
+
+  <div class="menu-navegacion">
+        <ol class="noticias">
+          <li><a href="Educacion.html">Educacion</li></a>
+          <li><a href="Salud.html">Salud</li></a>
+          <li><a href="Movilidad.html">Movilidad</li></a>
+          <li><a href="Polemica.html">Polemica</li></a>
+          <a href="Covid-19.html"><li>Covid-19</a>
+            <ul>
+                <li><a href="Coronavirus.html">Coronavirus</li></a>
+                <li><a href="Coronavirus-vaupes.html">Coronavirus-Vaupes</li></a>
+            </ul>
+        </li>
+    </ul>
+</div> <br><br> 
+  <hr>
+
+  <div a class= texto> 
+    <a href="Salud.html"></a><p class="I2">Destacado</a></p>
+    <a href="Salud.html"><p class="I3">Conozca dónde y cómo puede hacerse la prueba del covid-19 en su ciudad</a></p>
+  </div>  
+  
+  <div class="secciones">
+    <table width="85%">
+      <tr>
+        <td>
+          <a href="Educacion.html"><img src="img/1.jpeg" width="100%"></a>
+          <p>Educacion</p>
+          <h3>Universidad colombiana, de las 
+          mejores escuelas de negocios del mundo.</h3>
+          </td>
+          <td>
+            <a href="Movilidad.html"><img src="img/2.jpeg" width="100%"></a>
+          <p>Movilidad</p>
+          <h3>El 25 de mayo inicia cobro de multas vía cámaras salvavidas en Bogotá.</h3>
+          </td>
+          <td>
+            <a href="Salud.html"><img src="img/3.jpeg" width="100%"></a>
+          <p>Salud</p>
+          <h3>Conozca dónde y cómo puede hacerse la prueba del covid-19 en su ciudad.</h3>
+        </td>
+      </tr>
+    </table>
+</div>
+
+<div class="secciones">
+  <table width="85%">
+    <tr>
+      <td>
+        <a href="Polemica.html"><img src="img/4.jpeg" width="100%"></a>
+        <p>Polemica</p>
+        <h3>Polémico trino de Petro sobre la llegada y expansión del coronavirus.</h3>
+        </td>
+        <td>
+        <a href="Coronavirus-vaupes.html"><img src="img/5.jpeg" width="100%"></a>
+        <p>Coronavirus-Vaupes</p>
+        <h3>A Vaupés el virus llegó desde Brasil; hay 11 contagios y solo una UCI.</h3>
+        </td>
+        <td>
+          <a href="Coronavirus.html"><img src="img/6.jpeg" width="100%"></a>
+        <p>Coronavirus</p>
+        <h3>Coronavirus: 21 muertes más en Colombia; contagios superan los 14 mil.</h3>
+      </td>
+    </tr>
+  </table>
+</div>
+<hr>
+
+<table width="100%" id="logo-final">
+  <tr width="100%">
+       <td width="33%"> 
+           <img src="img/logos/logo.png" width="70%">
+       </td>
+       <td>
+           <ol class="menu-footer">
+                <h2>Siguenos en:</h2>
+                <li><a target="blanc" href="https://www.facebook.com/"><img src="img/logos/Facebook.png" width="47px"></a></li>
+                <li><a target="blanc" href="https://www.instagram.com/"><img src="img/logos/Instagram.png" width="45px"></a></li>
+                <li><a target="blanc" href="https://www.youtube.com/"><img src="img/logos/Youtube.png" width="55px"></a></li>
+           </ol>
+       </td>
+       <td>
+           <ol class="menu-footer">
+               <h3>Ayuda</h3>
+               <h3>Terminos y condiciones</h3>
+               <h3>Servicio al cliente</h3>
+           </ol>
+       </td>
+  </tr>
+</table>
+<br><br>
+
+
+</body>
+</html>
